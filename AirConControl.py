@@ -12,7 +12,7 @@ Bedroom_TCP_IP = '10.1.2.110'
 LivingRoom_TCP_IP = '10.1.2.111'
 
 # MQTT broker server (in my case, my Homeassistant device)
-mqttBroker = "homeassistant.local" 
+mqttBroker = "homeassistant.locala" 
 client = mqtt.Client("AC_Information")
 client.username_pw_set("mqtt", "password")
 client.connect(mqttBroker) 
